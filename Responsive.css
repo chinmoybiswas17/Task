@@ -1,0 +1,70 @@
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  html{width:100%}
+  body{width:100%}
+  .image{width:100%;height:100%}
+  #text {
+    width: 80%;
+    padding: 0;
+  }
+  #img {
+    width: 100%;
+	padding:0;
+	margin-left:0;
+	
+	
+  }
+  #img img{margin-left:0px;
+  margin-right:0px;padding-right:0px;width:100%}
+
+
+#loknath{width:100%;
+float:right}
+#pic img{width:100%}
+#table{width:100%}
+
+#SALMAN{width:100%}
+div#SERVICES{width:44%;float:none}
+
+div#BOSS{width:44%;float:none}
+div#JEKLIN{width:44%;float:none}
+div#A{width:44%;float:none}
+div#B{width:44%;float:none}
+div#C{width:44%;float:none}
+.slider_info{width:100%;padding-left:0px;height:100%}
+div.navbar a {display:block;float:none;text-align:left}
+
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  html{width:100%}
+  body{width:100%}
+  .image{width:100%;height:100%}
+  #img,#text,  {
+    width: 100%;
+	margin:0;
+  }
+  
+
+#loknath{width:100%;
+float:right}
+#pic{width:100%;
+padding-left:0px}
+#pic img{width:100%}
+
+
+#table{width:100%}
+#SALMAN{width:100%}
+div#SERVICES{width:100%;float:none}
+
+div#BOSS{width:100%;float:none}
+div#JEKLIN{width:100%;float:none}
+div#A{width:100%;float:none}
+div#B{width:100%;float:none}
+div#C{width:100%;float:none}
+#click{width:100px;display:block;float:right;}
+div.navbar a {display:block}
+div.navbar{
+	display:none;
+}
+}

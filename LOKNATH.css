@@ -1,0 +1,611 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#loknath{float:right;}
+ .navbar{
+  overflow: hidden;
+  background-color: black;
+  padding-right: 10px;
+}
+#click{display:none}
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align:center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: none;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 119px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: #a66cec;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+ul#SUBMENU li{height:25px;float:none;padding-bottom:0px;padding:0px;padding-bottom:0px}
+
+ul#SUBMENU{width:100px;height:189px;list-style:none;float:none;background:#352746;padding:0px;pad-bottom:0px;position:absolute;top:98px;left:1117px}
+#MENU{background:#374a37;height:100px;}
+.image{width:500px;position:center}
+
+
+
+#SALMAN{overflow:hidden;animation-name: example;
+animation-duration: 4s;animation-name:A;animation-duration:1s;width:1319px;}
+@keyframes A{from{transform:scale(0.1)}
+to{traansform:scale(1)}}
+@keyframes A{from{transform:scale(0.1)}
+to{traansform:scale(1)}}
+#SERVICES{
+    width: 30%;
+    color: white;
+    background: #000000;
+    margin-left:10px;
+    font-size: medium;
+    padding-bottom:10px;
+    margin-top:87px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    margin-bottom:87px;
+    margin-left: 19px;
+    }
+#SERVICES p{text-align:center;margin: 10px;padding-bottom: 10px;}
+#SERVICES img{width:100px;border-style: double;border-color:blue;border-width:5px;
+    left: 10%;
+    top: -45px;
+    height: 90px;
+    margin-left:17px;
+    line-height: 90px;border:fixed}
+#SERVICES h1{text-align:center}
+
+
+
+
+
+
+
+
+#BOSS{
+    width: 30%;
+    color: #fbfbfb;
+    background: #000000;
+    margin-left:10px;
+    font-size: medium;
+    padding-bottom:10px;
+    margin-top:87px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    margin-bottom:87px;
+    margin-left: 19px;
+    }
+#BOSS p{text-align:center;margin: 10px;padding-bottom: 10px;}
+#BOSS img{width:100px;border-style: double;border-color:blue;border-width:5px;
+    left: 10%;
+    top: -45px;
+    height: 90px;
+    margin-left:17px;
+    line-height: 90px;border:fixed}
+#BOSS h1{text-align:center}
+
+
+#JEKLIN{
+    width: 30%;
+    color: white;
+    background: #000000;
+    font-size: medium;
+    margin-top:87px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    margin-bottom:87px;
+    margin-left: 19px;
+    padding-bottom:10px;
+    }
+#JEKLIN p{text-align:center;margin: 10px;padding-bottom: 10px;}
+#JEKLIN img{width:100px;border-style: double;border-color:blue;border-width:5px;
+    left: 10%;
+    top: -45px;
+    height: 90px;
+    margin-left:17px;
+    line-height: 90px;border:fixed}
+#JEKLIN h1{text-align:center;}
+ #SERVICES:hover img{background:transparent;color:blue;transform:scale(0.8);transition:all 1s;}
+#BOSS:hover img{background:transparent;color:blue;transform:scale(0.8);transition:all 1s;}
+#JEKLIN:hover img{background:transparent;color:blue;transform:scale(0.8);transition:all 1s;}
+
+#A:hover img{background:transparent;color:blue;transform:scale(0.8);transition:all 1s;}
+#B:hover img{background:transparent;color:blue;transform:scale(0.8);transition:all 1s;}
+#C:hover img{background:transparent;color:blue;transform:scale(0.8);transition:all 1s;}
+
+
+
+
+section #Aa{display:inline}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#A{
+    width: 30%;
+    color: white;
+    background: #000000;
+    margin-left:10px;
+    font-size: medium;
+    padding-bottom:10px;
+    margin-top:87px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    margin-bottom:87px;
+    margin-left: 19px;
+    }
+#A p{text-align:center;margin: 10px;padding-bottom: 10px;}
+#A img{width:100px;border-style: double;border-color:blue;border-width:5px;
+    left: 10%;
+    top: -45px;
+    height: 90px;
+    margin-left:17px;
+    line-height: 90px;border:fixed}
+#A h1{text-align:center}
+
+
+#B{
+    width: 30%;
+    color: white;
+    background: #000000;
+    font-size: medium;
+    margin-top:40px;
+    padding-bottom:10px;
+    margin-top:87px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    margin-bottom:87px;
+    margin-left: 19px;
+    }
+#B p{text-align:center;margin: 10px;padding-bottom: 10px;}
+#B img{width:100px;border-style: double;border-color:blue;border-width:5px;
+    left: 10%;
+    top: -45px;
+    height: 90px;
+    margin-left:17px;
+    line-height: 90px;border:fixed}
+#B h1{text-align:center}
+
+
+#C{
+    width: 30%;
+    color: white;
+    background: #000000;
+    font-size: medium;
+    margin-top:87px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    margin-bottom:87px;
+    margin-left: 19px;
+    padding-bottom:10px;
+    }
+#C p{text-align:center;margin: 10px;padding-bottom: 10px;}
+#C img{width:100px;border-style: double;border-color:blue;border-width:5px;
+    left: 10%;
+    top: -45px;
+    height: 90px;
+    margin-left:17px;
+    line-height: 90px;border:fixed}
+#C h1{text-align:center;}
+
+
+
+
+
+
+
+
+#text{
+  /* background-color: lightgrey; */
+  width: 400px;
+  padding: 50px;
+  margin: 10px;
+  height:300px;
+  float:left;
+  color: black;
+  font-size: large;
+}
+#img{float: left;
+  padding: 10px;
+   width:570px;
+  height:400px;
+}
+#img img{
+    height: 419px;
+    width: 570px;
+    padding-bottom: 39px;
+    margin-bottom: 39px;
+    padding-right: 38px;
+    padding-right: 39px;
+    padding-right: 39px;
+    margin-right: 49px;
+    margin-top:20px;
+    /* padding-top: 0px; */
+    margin-left: 187px;
+    }
+	
+    
+#about{
+    width: 100%;
+    height: 487px;
+    content: "";
+    display: table;
+    clear: both;
+    background: #ffffff;
+    padding-top:20px;
+}
+#table{width:1319px}
+#MENU{background-image: url(file:///C:/Users/nilkomol/Downloads/banner.webp);}
+.image{
+width:1319px;}
+.slider_info{padding-left:500px;padding-top:200px;color:white;font-size:30px}
+#pic{padding-left:49px;float:left}
+.button1 {border-radius: 50px; background-color:blue; /* Green */
+ 
+  color: black;
+  padding-left:30px;
+   padding-right:30px;
+   padding-top:20px;
+    padding-bottom:20px;
+  text-align: center;border-color:blue;
+  border-radius: 30px;
+    border: 1px solid ;
+  
+  
+  font-size: 16px;
+  margin: 10px 2px;
+  border: none;cursor: pointer;
+    transition: 0.3s;
+}
+ .button1:hover {
+  background-color: #0000ff00;
+  color: white;
+  border: 1px solid #04d2c8;
+  
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;width:1319px
+}
+
+/* Style the header */
+header {
+  background-color: #593f9e;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #000;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.Book h1{padding-bottom:17px;text-align: center;}
+.Book img{width: 547px;
+    padding-left: 17px;
+    
+    height: 400px;
+    padding-bottom: 20px;
+    margin-left: 87px;}
+/* Style the footer */
+footer {
+  background-color: #2c3084;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+nav .rom a{color:white;
+  
+
+  
+  
+  text-decoration: none;}
+  *{
+	padding:0;
+	margin:0;
+}
+
+html{
+	background-color: #eaf0f2;
+}
+
+body{
+	font:16px/1.6 Arial,  sans-serif;
+}
+
+
+
+header h1{
+	font: normal 32px/1.5 'Open Sans', sans-serif;
+	color: #3F71AE;
+	padding-bottom: 16px;
+}
+
+header h2{
+	color: #F05283;
+}
+
+header span{
+	color: #3F71EA;
+}
+
+#quore{background:black;text-align:center;width:100px;top:-87px;left:0px;position:relative;display:inline-block;margin:auto}
+#quore:before{content:"";position:absolute;border-left: 37px solid #1b1919;border-top: 15px solid #00800000;width:10px;left: -31px;top: 6px;transform: rotate(-90deg);}
+/* The footer is fixed to the bottom of the page */
+
+footer{
+	position: fixed;
+	bottom: 0;
+}
+
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:40px; }
+}
+
+
+.footer-distributed{
+	background-color: #2c292f;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 50px 50px 60px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 30%;
+}
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+/* The company logo */
+
+.footer-distributed .footer-left img{
+	width: 30%;
+}
+
+.footer-distributed h3 span{
+	color:  #e0ac1c;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #e0ac1c;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 30%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* Here is the code for Responsive Footer */
+/* You can remove below code if you don't want Footer to be responsive */
+
+
+@media (max-width: 880px) {
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
